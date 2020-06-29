@@ -1,0 +1,17 @@
+{
+  "name": "vendor_name/gazprom1",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "require": {
+    "ext-pgsql": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8"
+  },
+  "autoload": {
+    "files": [
+      "parse_log.php"
+    ]
+  }
+}
